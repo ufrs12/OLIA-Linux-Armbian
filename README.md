@@ -1,7 +1,7 @@
-# OLIA-Linux-Armbian
+# OLIA Linux-Armbian
 
 <p align="center">
- <img width="150px" src="sources/img/logo/OLIA-Linux.png" alt="qr"/>
+ <img width="250px" src="sources/img/logo/OLIA-Linux.png" alt="qr"/>
 </p>
 
 
