@@ -11,3 +11,11 @@ Building images is carried out in [OLIA-Linux-Armbian-builder](https://github.co
 
 stack.md  - A stack of software that can be included in the image.  
 boards.md - List of boards for which development is underway.
+
+## Getting started
+
+### Getting the image
+
+There are two ways to get the image:
+* Build with [OLIA Linux Armbian builder](https://github.com/ufrs12/OLIA-Linux-Armbian-builder)
+* Download from my [site](https://osjob.ru/)
