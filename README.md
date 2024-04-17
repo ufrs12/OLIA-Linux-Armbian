@@ -24,7 +24,7 @@ There are two ways to get the image:
 
 ### From Windows
 
-* I usually use the [Rufus](https://rufus.ie)
+* I usually use the [Rufus](https://rufus.ie) (not available now).
 * But I can also recommend the [balenaEtcher](https://etcher.balena.io/)
 
 ### From Linux with GUI
@@ -45,6 +45,6 @@ There are two ways to get the image:
 * Long press the power button. About 5 seconds after the red LED lights up, you can release the button.
 * Wait 2-5 minutes. Installation completed.
 
-## 3. Install
+## 5. Settings
 
 ### Orange Pi 3 LTS
