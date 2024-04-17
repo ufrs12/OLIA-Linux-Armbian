@@ -14,8 +14,23 @@ boards.md - List of boards for which development is underway.
 
 ## Getting started
 
-### Getting the image
+### 1. Getting the image
 
 There are two ways to get the image:
 * Build with [OLIA Linux Armbian builder](https://github.com/ufrs12/OLIA-Linux-Armbian-builder)
 * Download from my [site](https://osjob.ru/)
+
+### 2. Сreate a bootable sd-card
+
+#### From Windows
+
+* I usually use the [Rufus](https://rufus.ie)
+* But I can also recommend the [balenaEtcher](https://etcher.balena.io/)
+
+#### From Linux with GUI
+
+I use the [balenaEtcher](https://etcher.balena.io/)
+
+#### From Linux without GUI
+
+If you work without a GUI, then I'm sure you know better than me how to do this)))
