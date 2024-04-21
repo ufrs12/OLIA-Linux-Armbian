@@ -18,7 +18,7 @@ boards.md - List of boards for which development is underway.
 
 There are two ways to get the image:
 * Build with [OLIA Linux Armbian builder](https://github.com/ufrs12/OLIA-Linux-Armbian-builder)
-* Download from my [site](https://osjob.ru/)
+* Download from my [site](https://osjob.ru/) (Currently unavailable)  
 
 ## 2. Сreate a bootable sd-card
 
