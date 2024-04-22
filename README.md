@@ -50,10 +50,17 @@ There are two ways to get the image:
 ### Orange Pi 3 LTS
 * Connect SSH 192.168.1.2:22, root/1234
 
+### Time synchronization
+`systemctl status chronyd` - check chronyd  
+
+
 #### Zabbix-agent
 * Open for edit file etc/zabbix/zabbix-agentd.conf
 * Add the IP address of the Zabbix-server to the "Server" and "ServerActive" parameters, separated by commas. In my case 192.168.1.1.
+* UserParameter=CPU_temp, cat /etc/armbianmonitor/datasources/soctemp
+* UserParameter=RAM_free ,sed '2!d' /proc/meminfo | cut -c18-24
 * Restart Zabbix-agent  
 `systemctl restart zabbix-agent`  
+
 
 
