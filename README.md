@@ -52,6 +52,7 @@ There are two ways to get the image:
 
 ### Time synchronization
 `systemctl status chronyd` - check chronyd  
+/etc/chrony/chrony.conf  
 
 
 #### Zabbix-agent
