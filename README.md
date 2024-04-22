@@ -45,6 +45,15 @@ There are two ways to get the image:
 * Long press the power button. About 5 seconds after the red LED lights up, you can release the button.
 * Wait 2-5 minutes. Installation completed.
 
-## 5. Settings
+## 4. Settings
 
 ### Orange Pi 3 LTS
+* Connect SSH 192.168.1.2:22, root/1234
+
+#### Zabbix-agent
+* Open for edit file etc/zabbix/zabbix-agentd.conf
+* Add the IP address of the Zabbix-server to the "Server" and "ServerActive" parameters, separated by commas. In my case 192.168.1.1.
+* Restart Zabbix-agent  
+`systemctl restart zabbix-agent`  
+
+
