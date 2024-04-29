@@ -58,7 +58,7 @@ Add into /etc/chrony/chrony.conf:
 
 #### Zabbix-agent
 * Open for edit file etc/zabbix/zabbix-agentd.conf
-* Add the IP address of the Zabbix-server to the "Server" and "ServerActive" parameters, separated by commas. In my case 192.168.1.1.
+* Add the IP address of the Zabbix-server to the "Server"  parameter, separated by commas. In my case 192.168.1.1.
 * UserParameter=CPU_temp, cat /etc/armbianmonitor/datasources/soctemp
 * UserParameter=RAM_free, sed '2!dsed '2!d'' /proc/meminfo | cut -c18-24
 * UserParameter=DISK_space, df -h /dev/mmcblk0p1 | head -n2 | tail -n1
